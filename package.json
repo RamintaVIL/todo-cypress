@@ -1,0 +1,20 @@
+{
+  "name": "todo-cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "http-server",
+    "test": "npx cypress open",
+    "test:cmd": "npx cypress run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "cypress": "^13.15.0"
+  }
+}
