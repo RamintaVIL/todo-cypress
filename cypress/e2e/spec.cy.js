@@ -114,7 +114,7 @@ describe('Task management', () => {
     cy.get('.todo-list li').should('have.length', 0);
   });
 
-  it('do not removes all tasks from the list when "Completed" is pressed', () => {
+  it("does not remove unmarked tasks when 'Completed' is pressed", () => {
     cy.addTask('Make a dinner');
     cy.addTask('Prepare homework');
     cy.addTask('Prepare breakfast');
